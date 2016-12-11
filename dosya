@@ -1,0 +1,83 @@
+#include <iostream>
+ 
+#include <stdio.h>
+ 
+#include <conio.h>
+ 
+#include <math.h>
+ 
+//*Programı Dev C++ da yaptım. Diğer derleme programlarında çalışıyormu bilmiyorum*//
+ 
+int a,b,c,d;
+ 
+using namespace std;
+ 
+ 
+ 
+int main() 
+ 
+{ 
+ 
+    cout<<"\n                                HESAP MAKiNASI";
+ 
+    cout<<"\n                        EDiTOR : TnT HaCkEr By HaYrUlLaH \n";
+ 
+    cout<<"\nYapmak istediginiz islemin numarasini giriniz."<<"\n"<<"\n   Toplama      = 1\n   Cikartma     = 2\n   Carpma       = 3\n   Bolme        = 4\n";
+ 
+    cin>>c;
+ 
+     
+ 
+    cout<<"ilk sayiyi giriniz = ";
+ 
+    cin>>a;
+ 
+    cout<<"Son sayiyi giriniz = ";
+ 
+    cin>>b;
+ 
+     
+ 
+    if ( c == 1 )
+ 
+    d = ( a+b );
+ 
+     
+ 
+    if ( c == 2 )
+ 
+    d = ( a-b );
+ 
+     
+ 
+    if ( c == 3 )
+ 
+    d = ( a*b );
+ 
+     
+ 
+    if ( c == 4 )
+ 
+    d = ( a/b );
+ 
+     
+ 
+    cout<<"\n islemin sonucu = "<< d <<"\n";
+ 
+     
+ 
+    if ( c > 4 )
+ 
+    cout<<"Program yanildi. Cunku girdiginiz islemin numarasi yanlis. En buyuk islem numarasi 4(Bolme)''dir.";
+ 
+     
+ 
+    cout<<"\nCikmak icin bir tusa basiniz.";
+ 
+     
+ 
+    getch();
+ 
+    return 0;
+ 
+}
